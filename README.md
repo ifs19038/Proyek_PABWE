@@ -9,4 +9,4 @@ Nama:
 Darel D.A Pinem (11S19027)
 
 Nama :
-Deiva Imanuela Pasaribu
+Deiva Imanuela Pasaribu (11S19028)
