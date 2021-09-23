@@ -7,3 +7,6 @@ Jogi Arif Guruh Sitinjak (11S19038)
 
 Nama:
 Darel D.A Pinem (11S19027)
+
+Nama :
+Deiva Imanuela Pasaribu
