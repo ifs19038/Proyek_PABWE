@@ -11,6 +11,9 @@ Darel D.A Pinem (11S19027)
 Nama :
 Deiva Imanuela Pasaribu (11S19028)
 
+Nama :
+Rens Junior Sibarani (1S19052)
+
 Hardware:
 
 - Intel® Core™ i5-7200U CPU @ 2.50GHx (Processor)
