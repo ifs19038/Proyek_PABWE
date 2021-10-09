@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Informatika</title>
+    <link rel="stylesheet" href="bootstrap-5.1.1-dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+        
+        h2 {
+            letter-spacing: -.75px;
+            font-size: 3.0517578125em;
+            font-weight: 900;
+            line-height: 1.25em;
+            text-align: center;
+            margin-top: .8em;
+            margin-bottom: .125em;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        img {
+            vertical-align: middle;
+        }
+        /* Position the image container (needed to position the left and right arrows) */
+        
+        .container {
+            position: relative;
+        }
+        /* Hide the images by default */
+        
+        .mySlides {
+            display: none;
+        }
+        /* Add a pointer when hovering over the thumbnail images */
+        
+        .cursor {
+            cursor: pointer;
+        }
+        /* Next & previous buttons */
+        
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 40%;
+            width: auto;
+            padding: 16px;
+            margin-top: -50px;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+        /* Position the "next button" to the right */
+        
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        /* On hover, add a black background color with a little bit see-through */
+        
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        /* Number text (1/3 etc) */
+        
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+        /* Container for image text */
+        
+        .caption-container {
+            text-align: center;
+            background-color: #222;
+            padding: 2px 16px;
+            color: white;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        /* Six columns side by side */
+        
+        .column {
+            float: left;
+            width: 16.66%;
+        }
+        /* Add a transparency effect for thumnbail images */
+        
+        .demo {
+            opacity: 0.6;
+        }
+        
+        .active,
+        .demo:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand ju" href="index.html">
+                <img src="asset/logoinformatika.png" alt="" width="300" height="100" class="d-inline-block align-text-top"></a>
+            <div class="d-flex" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Profil
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Visimisi.html">Visi Misi Prodi</a></li>
+                            <li><a class="dropdown-item" href="dosen.html">Dosen</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Akademik
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="kurikulum.html">Kurikulum</a></li>
+                            <li><a class="dropdown-item" href="pl.html">Profil Lulusan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Kegiatan
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="berita.html">Berita</a></li>
+                            <li><a class="dropdown-item" href="galeri.html">Galeri</a>
+                            </li>
+                            <li><a class="dropdown-item" href="Kerjasama.html">Kerjasama</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="hk.html">Kontak Kami</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h2 style="text-align:center; padding-bottom: 30px;">Galeri Kegiatan Informatika</h2>
+
+    <div class="container">
+        <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+            <img src="asset/presentasi.jpg" style="width:100%">
+            <div class="content">
+                <h1>Presentasi</h1>
+                <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Saepe provident, rerum sed sapiente nostrum labore possimus voluptatum. Ipsum ad, accusamus rerum quis dolorem sapiente suscipit, adipisci dicta recusandae hic impedit?
+                </p>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+            <img src="asset/rapat.jpg" style="width:100%">
+            <div class="content">
+                <h1>Rapat Prodi</h1>
+                <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Saepe provident, rerum sed sapiente nostrum labore possimus voluptatum. Ipsum ad, accusamus rerum quis dolorem sapiente suscipit, adipisci dicta recusandae hic impedit?
+                </p>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+            <img src="asset/diskusi.jpg" style="width:100%">
+            <div class="content">
+                <h1>Diskusi Projek Prodi</h1>
+                <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Saepe provident, rerum sed sapiente nostrum labore possimus voluptatum. Ipsum ad, accusamus rerum quis dolorem sapiente suscipit, adipisci dicta recusandae hic impedit?
+                </p>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+            <img src="asset/kelompok.jpg" style="width:100%">
+            <div class="content">
+                <h1>Team Event</h1>
+                <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Saepe provident, rerum sed sapiente nostrum labore possimus voluptatum. Ipsum ad, accusamus rerum quis dolorem sapiente suscipit, adipisci dicta recusandae hic impedit?
+                </p>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+            <img src="asset/startup.jpg" style="width:100%">
+            <div class="content">
+                <h1>Lomba Start-Up</h1>
+                <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Saepe provident, rerum sed sapiente nostrum labore possimus voluptatum. Ipsum ad, accusamus rerum quis dolorem sapiente suscipit, adipisci dicta recusandae hic impedit?
+                </p>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+            <img src="asset/wisuda.jpg" style="width:100%">
+            <div class="content">
+                <h1>Acara Wisuda</h1>
+                <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Saepe provident, rerum sed sapiente nostrum labore possimus voluptatum. Ipsum ad, accusamus rerum quis dolorem sapiente suscipit, adipisci dicta recusandae hic impedit?
+                </p>
+            </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="asset/presentasi.jpg" style="width:100%" onclick="currentSlide(1)" alt="Kegiatan">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="asset/rapat.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="asset/diskusi.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="asset/kelompok.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="asset/startup.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="asset/wisuda.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Youtube</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Facebook</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Instagram</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+            </ul>
+            <p class="text-center text-muted">Copyright SDI-IT Del © 2021 Institut Teknologi Del. All Rights Reserved</p>
+            <div style="text-align: center;">
+                <p><a href="#" class="js-backtotop">Back to top <i class="icon-arrow-long-up"></i></a></p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+    <script src="bootstrap-5.1.1-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
